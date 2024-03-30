@@ -1,6 +1,8 @@
 ## Prerequisites
 - PHP >= 8.1
 - [Composer](https://getcomposer.org/download/) 
+- Mysql >= 5.7 
+- Support other SQL database also
 
 ## Installation
  - Download or clone this repo
@@ -13,6 +15,7 @@
 
 ## API Endpoint
  - {dev_url}/api/rider-location (POST Request)
+ - This API endpoint stores rider location data. Below is a sample of the input data:
  
  ```
  {   
@@ -25,7 +28,9 @@
  ```
 
  - {dev_url}/api/nearby-rider (GET Request)
-    
+ - This api endpoint show restaurant latitude & longitude wise nearest rider. 
+ - Need to input restaurant_id . Below is a sample of the input data:
+
  ```
 {
    "restaurant_id": 1
