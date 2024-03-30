@@ -13,6 +13,7 @@
  - Run command <b>"php artisan migrate"</b>
  - For restaurant table run command <b>"php artisan db:seed --class=RestaurantSeeder"</b>
  - (Optional) For rider location table run command <b>"php artisan db:seed --class=RiderLocationSeeder"</b>
+ - Now run command <b>"php artisan serve"</b> and test api's
 
 ## API Endpoint
  - <b>{dev_url}/api/rider-location</b> (POST Request)
@@ -40,7 +41,7 @@
 
 ## Test Cases
  - Rider location store functionality test case
- - Find near by rider with valid resturant test case added
+ - Find near by rider with valid resturant test case 
 
 ## ANY QUERY
  - shahnaouzrazu21@gmail.com
