@@ -3,6 +3,7 @@
 - [Composer](https://getcomposer.org/download/) 
 - Mysql >= 5.7 
 - Support other SQL database also
+- API Testing Tool : Postman, Swagger etc.
 
 ## Installation
  - Download or clone this repo
