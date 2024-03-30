@@ -5,6 +5,9 @@
 - Support other SQL database also
 - API Testing Tool : Postman, Swagger etc.
 
+## Info
+ Laravel Framework : 10.48.4
+
 ## Installation
  - Download or clone this repo
  - Navigate to the project directory
