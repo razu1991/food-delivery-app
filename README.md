@@ -38,5 +38,9 @@
 }
  ```
 
+## Test Cases
+ - Rider location store functionality test case
+ - Find near by rider with valid resturant test case added
+
 ## ANY QUERY
  - shahnaouzrazu21@gmail.com
