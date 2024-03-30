@@ -7,14 +7,14 @@
 ## Installation
  - Download or clone this repo
  - Navigate to the project directory
- - Run Command "composer install" (For vendor packages)
+ - Run Command <b>"composer install"</b> (For vendor packages)
  - Create .env file and set mysql database credentials
- - Run command "php artisan migrate"
- - For restaurant table run command "php artisan db:seed --class=RestaurantSeeder"
- - (Optional) For rider location table run command "php artisan db:seed --class=RiderLocationSeeder"
+ - Run command <b>"php artisan migrate"</b>
+ - For restaurant table run command <b>"php artisan db:seed --class=RestaurantSeeder"</b>
+ - (Optional) For rider location table run command <b>"php artisan db:seed --class=RiderLocationSeeder"</b>
 
 ## API Endpoint
- - {dev_url}/api/rider-location (POST Request)
+ - <b>{dev_url}/api/rider-location</b> (POST Request)
  - This API endpoint stores rider location data. Below is a sample of the input data:
  
  ```
@@ -27,7 +27,7 @@
 }
  ```
 
- - {dev_url}/api/nearby-rider (GET Request)
+ - <b>{dev_url}/api/nearby-rider</b> (GET Request)
  - This api endpoint show restaurant latitude & longitude wise nearest rider. 
  - Need to input restaurant_id . Below is a sample of the input data:
 
